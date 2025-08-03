@@ -1,0 +1,50 @@
+CUSTOMER RETENTION ANALYSIS - SUMMARY REPORT
+==================================================
+
+DATASET OVERVIEW:
+Total customers: 500
+Total features: 9
+Missing values: 0
+
+COLUMN INFORMATION:
+CustomerID: int64
+Age: int64
+Gender: object
+Tenure: int64
+Usage: int64
+PlanType: object
+Complaints: int64
+ServiceLag: int64
+Churn: object
+
+NUMERIC FEATURES SUMMARY:
+        CustomerID         Age      Tenure       Usage  Complaints  ServiceLag
+count   500.000000  500.000000  500.000000  500.000000  500.000000  500.000000
+mean   1250.500000   49.910000   29.498000  204.656000    0.310000    4.048000
+std     144.481833   18.221909   17.402865   53.994708    0.462956    2.105841
+min    1001.000000   18.000000    1.000000   60.000000    0.000000    0.000000
+25%    1125.750000   35.000000   14.000000  168.000000    0.000000    3.000000
+50%    1250.500000   50.000000   30.000000  202.000000    0.000000    4.000000
+75%    1375.250000   66.000000   45.000000  241.250000    1.000000    5.000000
+max    1500.000000   79.000000   59.000000  358.000000    1.000000   11.000000
+
+CATEGORICAL FEATURES SUMMARY:
+Gender:
+Gender
+Female    250
+Male      250
+
+PlanType:
+PlanType
+Basic       206
+Standard    203
+Premium      91
+
+Churn:
+Churn
+No     338
+Yes    162
+
+CHURN ANALYSIS:
+Churn rate: 32.4%
+Retention rate: 67.6%
