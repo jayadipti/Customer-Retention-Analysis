@@ -56,8 +56,8 @@ Key analyses included:
 
 - Customers with longer service lag are more likely to churn
 - Lower usage levels correlate with higher churn probability
-- **Premium plan users show lower churn rates than Basic
-- **Senior customers tend to churn more
+- Premium plan users show lower churn rates than Basic
+- Senior customers tend to churn more
 - Customers with more complaints have higher churn rates
 
 These insights can guide targeted retention strategies such as:
@@ -66,5 +66,3 @@ These insights can guide targeted retention strategies such as:
 - Offering loyalty benefits for senior or long-tenure customers
 
 
-# Run the analysis
-python main.py
